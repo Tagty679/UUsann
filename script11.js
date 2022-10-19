@@ -1,6 +1,6 @@
 const quiz = [
   {
-    question :'フェートン号事件',
+    question :'ううさん',
     correct : '1808'
   },
   {
@@ -12,7 +12,7 @@ const quiz = [
     correct: '1833'
   },
   {
-    question :'大塩平八郎の乱',
+    question :'ひい',
     correct : '1837'
   },
   {
