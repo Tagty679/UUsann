@@ -1,40 +1,9 @@
 const quiz = [
   {
-    question :'ううさん',
-    correct : '1808'
+    question :'今からすごいことが起きます　それでもいいんですね？？',
+    correct : 'Yes'
   },
-  {
-    question: '異国船打払令',
-    correct: '1825'
-  },
-  {
-    question: '天保の大ききん',
-    correct: '1833'
-  },
-  {
-    question :'ひい',
-    correct : '1837'
-  },
-  {
-    question:'天保の改革',
-    correct: '1841'
-  },
-  {
-    question:'ペリー来航in浦賀',
-    correct: '1853'
-  },
-  {
-    question:'日米和親条約',
-    correct: '1854'
-  },
-  {
-    question:'日米修好通商条約',
-    correct: '1858'
-  },
- {
-    question:'安政の大獄',
-    correct: '1859'
-  },
+  
 ];
 quiz.sort(() => 0.5 - Math.random());
 
@@ -56,10 +25,10 @@ setupQuiz();
 const clickHandler = () => {
   quiz[quizIndex].input = answerInput.value;
   if (quiz[quizIndex].correct === answerInput.value) {
-    window.alert('正解');
+    window.alert('美味しいヤミー❗️✨🤟😁👍感謝❗️🙌✨感謝❗️🙌✨またいっぱい食べたいな❗️🍖😋🍴✨デリシャッ‼️🙏✨ｼｬ‼️🙏✨ ｼｬ‼️🙏✨ ｼｬ‼️🙏✨ ｼｬ‼️🙏✨ ｼｬｯｯ‼ハッピー🌟スマイル❗️👉😁👈');
     score++;
   } else {
-    window.alert('不正解');
+    window.alert('じゃんたまウイルスにかかりました！！　あなたは麻雀をするしかありません！');
   }
   quizIndex++; // 次の問題へ
   if (quizIndex < quizLength) {
