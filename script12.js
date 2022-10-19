@@ -86,4 +86,3 @@ const showAllAnswers = () => {
     tbody.appendChild(row);
   }
 };
-Footer
