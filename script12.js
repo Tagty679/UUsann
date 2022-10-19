@@ -34,7 +34,7 @@ const clickHandler = () => {
   if (quizIndex < quizLength) {
     setupQuiz();
   } else {
-    window.alert('終了 正解数は' + score + '/' + quizLength + 'です');
+    window.alert('あなたのライフはは' + score + '/' + quizLength + 'ですかもかも');
     showAllAnswers();
   }
 };
