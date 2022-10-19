@@ -87,8 +87,3 @@ const showAllAnswers = () => {
   }
 };
 Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Footer
-© 2022 GitHub, Inc.
